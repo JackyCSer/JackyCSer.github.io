@@ -32,6 +32,19 @@
  * 2.0 - General Elements
  */
 
+/* Icons */
+
+.icons{
+                width:32px;
+                height:32px;
+            }
+
+.icon-github{
+       background: url("icons/github.png");
+            }
+
+
+
 * {outline: none;}
 
 h1, 
@@ -363,8 +376,9 @@ figure {
     margin-bottom: 10px;
 }
 
+
 .widget-recent-posts ul li::before {
-    content: '\f3d3';
+/*    content: '\f3d3';*/
     font-family: "Ionicons";
     position: absolute;
     left: -17px;
@@ -380,15 +394,15 @@ figure {
 }
 
 .widget-archives ul li {
-    list-style-type: none;
+    list-style-type: disc;
     position: relative;
     line-height: 170%;
     margin-bottom: 10px;
 }
 
 .widget-archives ul li::before {
-    content: '\f3f3';
-    font-family: "Ionicons";
+/*    content: '\f3f3';*/
+ font-family: "Ionicons";
     position: absolute;
     left: -25px;
     top: 1px;
@@ -410,8 +424,8 @@ figure {
 }
 
 .widget-category ul li::before {
-    content: '\f3fe';
-    font-family: "Ionicons";
+/*    content: '\f3fe';*/
+ font-family: "Ionicons";
     position: absolute;
     left: -25px;
     top: 1px;

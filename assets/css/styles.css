@@ -1,4 +1,5 @@
 
+/* -------------CSS for CV--------------*/
 
 /* ======= Header ======= */
 .header {
@@ -14,14 +15,20 @@
   margin-right: 30px;
 }
 .header .profile-content .name {
+
   color: #49515a;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
 }
+
+.name{
+  font-family: "Lato", "宋体", arial, sans-serif;
+}
+
 .header .profile-content .desc {
   color: #778492;
-  font-family: "Lato", arial, sans-serif;
+  font-family: "Lato", "宋体", arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
   margin-top: 0;
@@ -50,7 +57,8 @@
   font-size: 20px;
   padding-top: 8px;
 }
-/* ======= Sections======= */
+
+/* ==================== Sections==================== */
 .sections-wrapper {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -72,6 +80,8 @@
   margin-right: 5px;
   font-size: 14px;
 }
+
+
 /* About Section */
 /* Latest Section */
 .latest .item {
@@ -164,6 +174,8 @@
 .latest .featured-image .ribbon .text:after {
   right: 0;
 }
+
+
 /* Projects Section */
 .projects .item {
   margin-bottom: 30px;
@@ -180,6 +192,8 @@
 .projects .item .title a:hover {
   color: #5f6b77;
 }
+
+
 /* Work Section */
 .experience .item {
   margin-bottom: 30px;
@@ -204,6 +218,8 @@
   color: #999999;
   font-weight: normal;
 }
+
+
 /* Git section */
 .ghfeed {
   height: 600px;
@@ -216,6 +232,8 @@
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
+
+
 /* Info Section */
 .info .fa {
   margin-right: 15px;
@@ -233,6 +251,8 @@
 .info li:last-child {
   margin-bottom: 0;
 }
+
+
 /* Skills Section */
 .skills .intro {
   margin-bottom: 30px;
@@ -250,7 +270,7 @@
   color: #ccd1d6;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Lato", arial, sans-serif;
+  font-family: "Lato", "宋体", arial, sans-serif;
   position: absolute;
   right: 0;
   top: 0;
@@ -263,6 +283,8 @@
   height: 15px;
   background: #66cb8c;
 }
+
+
 /* Testimonials section */
 .testimonials .item {
   margin-bottom: 30px;
@@ -292,6 +314,8 @@
 .testimonials .item .source .title {
   color: #999999;
 }
+
+
 /* Education section */
 .education .item {
   margin-bottom: 30px;
@@ -314,6 +338,8 @@
   color: #b0b7bf;
   font-weight: 500;
 }
+
+
 /* Language Section */
 .languages .item {
   margin-bottom: 15px;
@@ -330,6 +356,8 @@
 .languages .item .fa {
   color: #79d19a;
 }
+
+
 /* Blog Section */
 .blog .item {
   margin-bottom: 30px;
@@ -347,6 +375,8 @@
 .blog .item:last-child {
   margin-bottom: 0;
 }
+
+
 /* List section */
 .list ul li {
   margin-bottom: 10px;
@@ -360,6 +390,8 @@
 .list ul li a:hover {
   color: #49515a;
 }
+
+
 /* Credits */
 .credits ul li {
   margin-bottom: 10px;
@@ -376,6 +408,7 @@
 .credits .btn {
   margin-bottom: 15px;
 }
+
 /* ======= Footer ======= */
 .footer {
   background: #32383e;
@@ -393,6 +426,7 @@
 .footer .fa-heart {
   color: #fb866a;
 }
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .header {
@@ -414,6 +448,8 @@
     margin-bottom: 15px;
   }
 }
+
+
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
