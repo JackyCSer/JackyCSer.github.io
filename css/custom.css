@@ -371,7 +371,7 @@ figure {
 }
 
 .widget-recent-posts ul li {
-    list-style-type: disc;
+    list-style-type: none;
     position: relative;
     line-height: 170%;
     margin-bottom: 10px;
@@ -423,6 +423,9 @@ figure {
     line-height: 200%;
     margin-bottom: 10px;
 }
+
+
+
 
 .widget-category ul li::before {
 /*    content: '\f3fe';*/
